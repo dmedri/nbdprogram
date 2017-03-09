@@ -31,8 +31,8 @@ nbdprogram(b = 0.20, w = 2.1, t = 4)
   purchase and new purchase rates for different periods. The Gamma distribution of
   persons buying different times is worked out for each period and the proportion
   of sales attributable to different rates of purchase is calculated (Negative Binomial
-  Distribution). Results also show how penetration and purchase frequency change when
-  periods of different duration are used.
+  Distribution - Dirichlet). Results also show how penetration and purchase frequency
+  change when periods of different duration are used.
 }
 \value{
   Return a list object.
@@ -43,6 +43,14 @@ Daniele Medri
 \references{
   East, R. and Wright, M. and Vanhuele, M. (2013). Consumer Behaviour: Applications
   in Marketing. SAGE Publications, pp. 72-85.
+  
+  The Dirichlet: A Comprehensive Model of Buying Behavior. G.J. Goodhardt, A.S.C. Ehrenberg,
+  C. Chatfield. Journal of the Royal Statistical Society. Series A (General), Vol. 147, 
+  No. 5 (1984), pp. 621-655.
+
+  Repeat-Buying:Facts,Theory and Applications, 2nd edn. A.S.C. Ehrenberg, 1988, London, Charles
+  Griffin, ISBN 0 85264 287 3 Book Review: Repeat-Buying:Facts,Theory and Applications by A.S.C.
+  Ehrenberg. Norman Pigden. The Statistician, Vol. 40, No. 3, Special Issue (1991), pp. 349-350.
 }
 \seealso{
 
@@ -52,10 +60,6 @@ Daniele Medri
 
   Ehrenberg, A., Uncles, M. D. (1999). Understanding Dirichlet-type markets.
   London, Centre for Research in Marketing, South Bank University.
-
-  Goodhardt, G. J., Ehrenberg, A., Chatfield, C. (1984), The Dirichlet: A
-  Comprehensive Model of Buying Behaviour. Journal of the Royal Statistical
-  Society, 147 (part 5), 621-55.
 
   Ehrenberg, A. (1959). The Pattern of Consumer Purchases. Journal of the Royal
   Statistical Society. Series C (Applied Statistics), 8(1), pp. 26-41.

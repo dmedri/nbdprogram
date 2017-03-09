@@ -1,7 +1,7 @@
 Package: nbdprogram
 Type: Package
 Title: Predicting Purchase Rates in Stationary Markets
-Version: 0.1.4
+Version: 0.1.5
 Date: 2017-03-09
 Authors@R: c(person("Daniele", "Medri",role = c("aut", "cre"),
                      email = "dmedri@gmail.com"),
