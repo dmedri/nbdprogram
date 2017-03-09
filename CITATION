@@ -1,0 +1,7 @@
+@ONLINE{
+  dm2017nbd,
+  author = {Medri, D.},
+  title = {NBD Program, Predicting Purchase Rates in Stationary Markets},
+  year = {2017},
+  url = {https://github.com/dmedri/nbdprogram/}
+}
