@@ -1,6 +1,9 @@
 
-Overview of Changes in nbdprogram 0.1.5:
+Overview of Changes in nbdprogram 0.2:
 ======================================
+
+* No user-visible news;
+* Internal porting of functions to C code.
 
 
 What's new in nbdprogram 0.1.4:

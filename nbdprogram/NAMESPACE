@@ -1,2 +1,3 @@
+useDynLib(nbdprogram)
 exportPattern("^[[:alpha:]]+")
 S3method(print, nbdprogram)

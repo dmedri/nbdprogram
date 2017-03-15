@@ -26,12 +26,12 @@ nbdprogram(b = 0.20, w = 2.1, t = 4)
   Default value is (\code{t=4}).}
 }
 \details{
-  NBD Program is based on the original code developed by Prof. Robert East. It requires
+  NBD Program is a free clone of a software developed by Prof. R. East. It requires
   data on penetration, purchase frequency and data collection period. It computes repeat
   purchase and new purchase rates for different periods. The Gamma distribution of
   persons buying different times is worked out for each period and the proportion
   of sales attributable to different rates of purchase is calculated (Negative Binomial
-  Distribution - Dirichlet). Results also show how penetration and purchase frequency
+  Distribution). Results also show how penetration and purchase frequency
   change when periods of different duration are used.
 }
 \value{
@@ -43,26 +43,15 @@ Daniele Medri
 \references{
   East, R. and Wright, M. and Vanhuele, M. (2013). Consumer Behaviour: Applications
   in Marketing. SAGE Publications, pp. 72-85.
-  
-  The Dirichlet: A Comprehensive Model of Buying Behavior. G.J. Goodhardt, A.S.C. Ehrenberg,
-  C. Chatfield. Journal of the Royal Statistical Society. Series A (General), Vol. 147, 
-  No. 5 (1984), pp. 621-655.
 
-  Repeat-Buying:Facts,Theory and Applications, 2nd edn. A.S.C. Ehrenberg, 1988, London, Charles
+  Repeat-Buying: Facts,Theory and Applications, 2nd edn. A.S.C. Ehrenberg, 1988, London, Charles
   Griffin, ISBN 0 85264 287 3 Book Review: Repeat-Buying:Facts,Theory and Applications by A.S.C.
   Ehrenberg. Norman Pigden. The Statistician, Vol. 40, No. 3, Special Issue (1991), pp. 349-350.
+
 }
 \seealso{
-
-  Ehrenberg, A., Byron S. (2000). Managerial Uses of Descriptive Marketing
-  Models-The Case of the Dirichlet. Diss. Griffith University.
-  \url{https://www.marketingscience.info/wp-content/uploads/staff/2015/08/6893.pdf}
-
-  Ehrenberg, A., Uncles, M. D. (1999). Understanding Dirichlet-type markets.
-  London, Centre for Research in Marketing, South Bank University.
-
-  Ehrenberg, A. (1959). The Pattern of Consumer Purchases. Journal of the Royal
-  Statistical Society. Series C (Applied Statistics), 8(1), pp. 26-41.
+  Brasini, S., Tassinari, F., & Tassinari, G. (1999). Marketing e pubblicità: metodi di analisi
+  statistica. Il mulino, pp. 207-215.
 }
 \examples{
 \dontrun{

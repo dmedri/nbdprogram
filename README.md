@@ -1,7 +1,7 @@
 NBD Program
 ===========
 
-Predicting Purchase Rates in Stationary Markets (w/ a NBD-Dirichlet model).
+Predicting Purchase Rates in Stationary Markets with NBD (Negative Binomial Distribution).
 
 ```
 NBD Program
@@ -50,3 +50,16 @@ twice       0.029  0.150   0.262    0.206    0.131    0.071    0.066
 4 times     0.000  0.004   0.054    0.113    0.101    0.067    0.063
 5 times     0.000  0.001   0.024    0.081    0.086    0.063    0.059
 ```
+
+References
+----------
+
+* East, R. and Wright, M. and Vanhuele, M. (2013). Consumer Behaviour: Applications
+  in Marketing. SAGE Publications, pp. 72-85.
+
+* Repeat-Buying: Facts,Theory and Applications, 2nd edn. A.S.C. Ehrenberg, 1988, London, Charles
+  Griffin, ISBN 0 85264 287 3 Book Review: Repeat-Buying:Facts,Theory and Applications by A.S.C.
+  Ehrenberg. Norman Pigden. The Statistician, Vol. 40, No. 3, Special Issue (1991), pp. 349-350.
+
+* Brasini, S., Tassinari, F., & Tassinari, G. (1999). Marketing e pubblicità: metodi di analisi
+  statistica. Il mulino, pp. 207-215.

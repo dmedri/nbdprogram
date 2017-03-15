@@ -1,8 +1,8 @@
 Package: nbdprogram
 Type: Package
 Title: Predicting Purchase Rates in Stationary Markets
-Version: 0.1.5
-Date: 2017-03-09
+Version: 0.2.0
+Date: 2017-03-12
 Authors@R: c(person("Daniele", "Medri",role = c("aut", "cre"),
                      email = "dmedri@gmail.com"),
                      person("Robert","East", role=c("aut"), email="reast@kingston.ac.uk"))
@@ -10,7 +10,7 @@ Author: Daniele Medri [aut, cre],
   Robert East [aut]
 Maintainer: Daniele Medri <dmedri@gmail.com>
 Depends: R (>= 3.2.1)
-Description: Starting from the original code developed by Prof. Robert East, we build functions to estimate a NBD-Dirichlet model for purchase rates in stationary markets.
+Description: The NBD (Negative Binomial Distribution) model describes the purchase incidence and brand choice of consumer products. We estimate the model and summarize various theoretical quantities of interest to marketing researchers.
 License: GPL (>=2)
 URL: https://github.com/dmedri/nbdprogram/
 BugReports: https://github.com/dmedri/nbdprogram/issues
@@ -18,3 +18,4 @@ LazyLoad: yes
 ByteCompile: true
 Encoding: UTF-8
 Suggests: BTYD, NBDdirichlet
+NeedsCompilation: yes
