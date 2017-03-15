@@ -1,7 +1,7 @@
 NBD Program
 ===========
 
-Predicting Purchase Rates in Stationary Markets with NBD (Negative Binomial Distribution).
+Predicting Purchase Rates in Stationary Markets.
 
 ```
 NBD Program
